@@ -1,0 +1,197 @@
+body {
+    background-color: rgb(205, 204, 205);
+}
+
+.image-container {
+    width: 1000px;
+    /* Set the width you want */
+    height: 1000px;
+    /* Set the height you want */
+    overflow: hidden;
+    /* Hide overflow */
+    border: 2px;
+    /* Optional: add a border */
+    display: flex;
+    /* Center the image */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.image-container img {
+    max-width: 600px;
+    /* Make image responsive */
+    max-height: 300px;
+    /* Keep image within the container */
+    object-fit: cover;
+    /* Crop image if it doesn't fit */
+}
+
+.footer-section {
+    width: 600px;
+    /* Set the width you want */
+    height: 300px;
+    /* Set the height you want */
+    overflow: hidden;
+    /* Hide overflow */
+
+    display: flex;
+    /* Center the image */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.footer-section img {
+    max-width: 100%;
+    /* Make image responsive */
+    max-height: 50%;
+    /* Keep image within the container */
+}
+
+body {
+    background-color: orange;
+    /* Change this to your desired shade of blue */
+    color: white;
+    /* Optional: Change text color for better contrast */
+}
+
+header {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: center;
+    /* Center items horizontally */
+    padding: 20px;
+    /* Optional: Add padding for spacing */
+}
+
+nav a {
+    margin: 0 15px;
+    /* Optional: Add spacing between links */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: rgb(128, 72, 177);
+    /* Change color to white (or desired color) */
+}
+
+@media (max-width: 767px) {
+    /*mobile style*/
+
+    .home .main-section {
+        flex-direction: column;
+    }
+
+    .home .main-section p {
+        width: auto;
+        padding: 5px 0 0 0;
+    }
+}
+
+:root {
+    --primary-color: #300edc;
+    --primary-color-100: #907bef;
+    --primary-color-300: #492ccc;
+
+    --secondary-color: #405cd8;
+    --secondary-color-600: rgb(61, 38, 147);
+    --secondary-color-900: #01321E;
+
+    --neutral-color: #e0e0e0;
+
+    --background-color: orange;
+    --surface-color: #efeff0;
+
+    --lobster-font: "Lobster Two", sans-serif;
+    --DM-font: "DM Sans", sans-serif;
+}
+
+* {
+    font-family: var(--DM-font);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--secondary-color-600);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: var(--lobster-font);
+    color: var(--primary-color-100);
+    font-size: 1.8 rem;
+    letter-spacing: 0.06rem;
+}
+
+h3 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+p {
+    color: var(--neutral-color);
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.text-label {
+    color: var(--background-color);
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primary-button {
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+    padding: 2.5% 5%;
+    color: var(--neutral-color);
+    background: var(--primary-color-100);
+}
+
+.primary-button:hover {
+    background: linear-gradient(135deg, #7F66FF 0%, #e2dfef 100%);
+}
+
+
+.image-container {
+    flex-wrap: wrap;
+    /* Allows wrapping to the next line */
+    justify-content: center;
+    /* Centers items horizontally */
+    max-width: 50%;
+}
+
+.responsive-image {
+    max-width: 100%;
+    /* Responsive image */
+    height: auto;
+    /* Maintains aspect ratio */
+
+}

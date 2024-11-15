@@ -1,0 +1,51 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    height: 100vh;
+    /* Full viewport height */
+}
+
+img {
+    max-width: 100%;
+    /* Ensures the image is responsive */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+body {
+    background-color: blueviolet;
+}
+
+/* static/myapp/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+about-description-container {
+    text-align: center;
+}
+
+/* Add more styles as needed */

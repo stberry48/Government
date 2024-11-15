@@ -1,0 +1,91 @@
+/*About Me Section */
+.about-section {
+    padding: 2%;
+}
+
+.about-image-container img {
+    width: 50%;
+}
+
+.about-image-container {
+    width: 30%;
+}
+
+.about-description-container {
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.about-description-container p {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.skills-list {
+    flex-wrap: wrap;
+    width: 40%;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+
+/* Experience Section */
+.experience-section {
+    border: blue 2px;
+    margin-top: 4rem;
+    padding: 2%;
+}
+
+.experience-list {
+    border: blue 2px;
+    margin: 2rem 0px;
+}
+
+.experience-card {
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    margin: 2rem 0px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0px;
+}
+
+.experience-card p:nth-child(3) {
+    font-style: italic;
+}
+
+/* Contact Section */
+.contact-section #emailForm {
+    border: solid 1px var(--primary-color-100);
+    border-radius: 1px;
+    padding: 1rem 2.5rem 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.contact-section p {
+    margin-bottom: 1rem;
+}
+
+.contact-section h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-section h2 span {
+    color: var(--neutral-color);
+    font-family: inherit;
+}
